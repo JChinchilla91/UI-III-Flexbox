@@ -110,7 +110,7 @@ header nav a {
 	text-align: center;
 }
 
-/* button {
+ /* button {
 	border: 2px black solid;
 	background-color: white;
 	font-size: 20px;
@@ -144,7 +144,7 @@ header nav a {
 }
 
 .bottom-content {
-	border-bottom: 2px solid black;
+/*	border-bottom: 2px solid black; */
 	padding: 2% 2%;
 }
 
@@ -178,7 +178,6 @@ section {
 
 .services {	
 	margin-top: 3%;
-	border: 2px solid gold;
 	display: flex;
 	justify-content: center;
 	align-items: center;	
@@ -193,9 +192,55 @@ section {
 }
 
 .middle-portion {
-	border-top: 2px solid black;
+	
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .info-boxes {
-	border: 2px green solid;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+	padding-left: 2.5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+}
+
+.info {
+	border: 1px black solid;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	background: rgb(241, 237, 237);
+	width: 400px;
+	height: 250px;
+	margin: 2.5% 0%;
+	padding: 0;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+.section-button {
+	height: 40px;
+	width: 140px;
+	border-radius: 5px;
+	background-color: white;
+	
+
+}
+
+.bottom-content {
+	padding-left: 7%
+}
+
+
+
+ul {
+	list-style-type: square;
+	padding-left: 3%;
+	padding-top: 2%;
+	line-height: 30px
 }
