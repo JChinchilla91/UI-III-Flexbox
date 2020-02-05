@@ -110,14 +110,14 @@ header nav a {
 	text-align: center;
 }
 
- /* button {
+button {
 	border: 2px black solid;
 	background-color: white;
 	font-size: 20px;
 	width: 200px;
 	height: 50px;
 	margin-bottom: 20px;
-} */
+} 
 
 .right {
 	
@@ -148,9 +148,10 @@ header nav a {
 	padding: 2% 2%;
 }
 
-.bottom-content {
+.bottom-content1 {
 	display: flex;
 	justify-content: space-evenly;
+	width: 90%;
 }
 
 .bottom-left {
@@ -233,6 +234,8 @@ section {
 }
 
 .bottom-content {
+	display: flex;
+	justify-content: space-evenly;
 	padding-left: 7%
 }
 
